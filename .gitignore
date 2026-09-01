@@ -1,0 +1,32 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Qdrant local storage
+qdrant_db/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.log

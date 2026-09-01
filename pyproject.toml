@@ -1,0 +1,17 @@
+[project]
+name = "mini-project3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "faster-whisper>=1.2.1",
+    "groq>=1.7.0",
+    "langchain-text-splitters>=1.1.2",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.9",
+    "qdrant-client>=1.19.0",
+    "sentence-transformers>=6.0.1",
+    "uvicorn>=0.52.4",
+]
